@@ -46,8 +46,8 @@ This organization hosts the public-facing artifacts of our work. Most ChronoFabr
 
 ## Contact
 
-- **Business / partnerships / evaluation:** info@bitconcepts.tech
-- **Security / responsible disclosure:** support@bitconcepts.tech (see `SECURITY.md`)
+- **Business / partnerships / evaluation:** info@layer1labs.ai
+- **Security / responsible disclosure:** security@layer1labs.ai (see `SECURITY.md`)
 
 ## Licensing
 

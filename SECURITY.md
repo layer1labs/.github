@@ -12,7 +12,7 @@ If you believe you have discovered a security vulnerability, **do not open a pub
 
 Please report security issues privately via email:
 
-- **Email:** support@bitconcepts.tech
+- **Email:** security@layer1labs.ai
 - **Subject:** CPSC Security Disclosure
 
 This applies to:
@@ -89,4 +89,4 @@ All intellectual property rights remain with Layer1Labs Silicon, Inc.
 
 For all security-related matters:
 
-support@bitconcepts.tech
+security@layer1labs.ai
