@@ -1,112 +1,159 @@
-CPSC Research & Evaluation License
+LAYER1LABS PROPRIETARY LICENSE
 Version 1.0
-Published: January 19, 2026
+Effective: April 29, 2026
 
-Copyright © 2026 Layer1Labs Silicon, Inc.
+Copyright (c) 2026 Layer1Labs Silicon, Inc.
 All rights reserved.
 
-PURPOSE
+NOTICE
 
-This license governs the use of the Constraint-Projected State Computing (CPSC)
-specification, documentation, and related materials (the "Licensed Materials").
+This software, including all source code, hardware description language,
+firmware, register transfer logic, schematics, specifications, designs,
+documentation, build artifacts, evaluation kits, and accompanying
+materials in this repository (collectively, the "Software"), is the
+exclusive property of Layer1Labs Silicon, Inc. ("Layer1Labs") and is
+protected by United States copyright, trade secret, patent, trademark,
+and other intellectual property laws, and by applicable foreign
+intellectual property laws and international treaties.
 
-The Licensed Materials are made available for research, evaluation, and
-educational purposes only.
+NO LICENSE GRANTED BY ACCESS
 
-This license is intended to enable academic study, technical review, and
-non-commercial experimentation, while reserving all commercial and patent
-rights to Layer1Labs Silicon, Inc.
+The mere availability of the Software in a public, restricted, or
+private repository does NOT constitute a grant of any license, express,
+implied, by estoppel, or otherwise, to any intellectual property right
+of Layer1Labs. No right to use, copy, modify, distribute, sublicense,
+sell, perform, display, deploy, execute, or create derivative works of
+the Software is granted by access alone.
 
-GRANT OF RIGHTS
+ALL USE REQUIRES A WRITTEN COMMERCIAL LICENSE
 
-Subject to the terms of this license, Layer1Labs Silicon, Inc. grants you a
-non-exclusive, non-transferable, revocable license to:
+Any use of the Software for any purpose, including but not limited to
+research, evaluation, internal testing, benchmarking, integration,
+deployment, distribution, sublicensing, or commercial exploitation,
+requires a separate, executed, written commercial license agreement
+between the user and Layer1Labs Silicon, Inc. No previously published,
+published, or implied "research and evaluation" or "non-commercial"
+license applies to the Software. Any earlier or contradictory licensing
+notice is hereby superseded and revoked as of the effective date above.
 
-read, copy, and share the Licensed Materials in unmodified or modified form;
-use the Licensed Materials solely for non-commercial research, evaluation,
-or educational purposes;
-cite or reference the Licensed Materials in academic publications,
-presentations, or research;
-create derivative works of the Licensed Materials solely for non-commercial
-research or evaluation, provided that such derivative works are not used to
-design, implement, or inform any commercial product, service, or system.
+PROHIBITED ACTIONS
 
-Publication or disclosure of the Licensed Materials does not constitute a
-dedication to the public domain and does not authorize the practice of any
-patented or patent-pending invention.
+Without a separately executed written commercial license agreement with
+Layer1Labs, you SHALL NOT:
 
-RESTRICTIONS
-
-You may not, directly or indirectly:
-
-use the Licensed Materials, or any derivative thereof, for any commercial
-purpose;
-implement the Licensed Materials in any commercial product, service, or
-system;
-deploy implementations of the Licensed Materials in production or
-revenue-generating environments;
-sell, license, sublicense, or otherwise commercially exploit the Licensed
-Materials;
-use the Licensed Materials to provide paid services, hosted offerings, or
-commercial consulting;
-circumvent the intent of this license through clean-room implementation,
-functional reimplementation, or similar methods intended to avoid licensing
-obligations.
-
-Any commercial use requires a separate, explicit commercial license from
-Layer1Labs Silicon, Inc.
+(a) use, copy, modify, merge, publish, distribute, sublicense, sell,
+    or otherwise exploit the Software, in whole or in part;
+(b) execute, run, simulate, synthesize, deploy, or operate the Software
+    in any environment, whether for production or non-production use;
+(c) create derivative works, ports, translations, or adaptations of
+    the Software;
+(d) reverse engineer, decompile, disassemble, or otherwise attempt to
+    derive the source form, internal structure, algorithms, or trade
+    secrets embodied in the Software, except to the extent such
+    activity is expressly authorized by applicable law notwithstanding
+    this restriction;
+(e) remove, alter, or obscure any copyright, trademark, patent, or
+    other proprietary notice in or accompanying the Software;
+(f) use the Software, or any information derived from the Software, to
+    design, develop, train, or evaluate any product, service, model,
+    standard, or specification that competes with Layer1Labs;
+(g) disclose, publish, or otherwise make available the Software, or any
+    portion thereof, to any third party.
 
 PATENT RIGHTS
 
-This license does not grant any patent rights.
+The Software embodies inventions that are the subject of issued and/or
+pending patent applications, including without limitation U.S.
+Provisional Patent Application No. 63/980,251 and other applications
+and registrations owned by, or licensed to, Layer1Labs. No patent
+license is granted by the publication of, or access to, the Software.
+All patent rights are expressly reserved by Layer1Labs.
 
-The Licensed Materials may describe technologies that are subject to existing or
-future patent applications. All patent rights are expressly reserved.
+TRADE SECRETS AND CONFIDENTIALITY
 
-NO IMPLIED LICENSE
+The Software, including its existence, structure, organization,
+performance characteristics, and content, constitutes Confidential
+Information and trade secrets of Layer1Labs. Any party with access to
+the Software, whether obtained intentionally or inadvertently, shall:
+(i) hold the Software in strict confidence; (ii) use at least the same
+degree of care to protect it as it uses to protect its own confidential
+information of like importance, but in no event less than reasonable
+care; and (iii) not disclose the Software to any third party without
+the prior written consent of Layer1Labs.
 
-Nothing in this license shall be construed as granting, by implication,
-estoppel, or otherwise, any rights under any patent or patent application,
-whether existing now or filed in the future.
+TRADEMARKS
 
-ATTRIBUTION
-
-Any redistribution or publication of the Licensed Materials or derivative works
-must include the following attribution:
-
-Constraint-Projected State Computing (CPSC) — used under the CPSC Research &
-Evaluation License.
+"Layer1Labs," "Layer1Labs Silicon," "ChronoFabric," "UDIS," "CPSC,"
+"CPAC," and associated logos are trademarks of Layer1Labs Silicon, Inc.
+No right or license to use any Layer1Labs trademark is granted under
+this License.
 
 NO WARRANTY
 
-The Licensed Materials are provided "as is", without warranty of any kind,
-express or implied, including but not limited to warranties of merchantability,
-fitness for a particular purpose, or non-infringement.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND
+NON-INFRINGEMENT. LAYER1LABS DOES NOT WARRANT THAT THE SOFTWARE WILL
+MEET ANY REQUIREMENTS OR THAT ITS OPERATION WILL BE UNINTERRUPTED OR
+ERROR-FREE.
 
 LIMITATION OF LIABILITY
 
-In no event shall Layer1Labs Silicon, Inc. or any contributors be liable for any claim,
-damages, or other liability, whether in an action of contract, tort, or
-otherwise, arising from, out of, or in connection with the Licensed Materials
-or their use.
+IN NO EVENT SHALL LAYER1LABS, ITS DIRECTORS, OFFICERS, EMPLOYEES,
+AGENTS, CONTRACTORS, OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES
+(INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES, LOSS OF USE, DATA, OR PROFITS, OR BUSINESS INTERRUPTION),
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF, INABILITY TO USE, OR ACCESS TO THE
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+INJUNCTIVE RELIEF
+
+The parties acknowledge that any breach of this License may cause
+Layer1Labs irreparable harm for which monetary damages would be
+inadequate. Layer1Labs shall therefore be entitled to seek injunctive
+or other equitable relief in addition to any other remedies available.
 
 TERMINATION
 
-This license terminates automatically if you violate any of its terms. Upon
-termination, you must immediately cease all use of the Licensed Materials and
-destroy any copies in your possession or control.
+Any rights of access or possession of the Software (whether express or
+implied) terminate automatically upon any breach of this License. Upon
+termination, the recipient shall immediately cease all use of the
+Software and shall destroy or return all copies in its possession or
+control and certify such destruction in writing upon request.
 
-COMMERCIAL LICENSING
+EXPORT CONTROL
 
-Commercial use, production deployment, or incorporation of the Licensed
-Materials into products or services requires a separate commercial license.
-
-For commercial licensing inquiries, contact Layer1Labs Silicon, Inc.
+The Software may be subject to export and re-export control laws and
+regulations, including but not limited to the U.S. Export
+Administration Regulations. The recipient shall comply with all such
+laws and regulations and shall not export, re-export, or transfer the
+Software in violation of them.
 
 GOVERNING LAW
 
-This license shall be governed by and construed in accordance with the laws of
-the jurisdiction in which Layer1Labs Silicon, Inc. is organized, without regard to
-conflict-of-law principles.
+This License and any disputes arising from or relating to the Software
+shall be governed by and construed in accordance with the laws of the
+State of Delaware, U.S.A., without regard to its conflict-of-laws
+principles. Any action arising under this License shall be brought
+exclusively in the state or federal courts located in Delaware, and the
+parties consent to personal jurisdiction and venue therein.
+
+ENTIRE AGREEMENT; SEVERABILITY
+
+This License constitutes the entire agreement between the parties with
+respect to the Software and supersedes all prior or contemporaneous
+understandings. If any provision of this License is held to be invalid
+or unenforceable, the remaining provisions shall continue in full force
+and effect.
+
+COMMERCIAL LICENSING INQUIRIES
+
+To obtain a commercial license for any use of the Software, contact:
+
+    Layer1Labs Silicon, Inc.
+    info@layer1labs.ai
 
 END OF LICENSE

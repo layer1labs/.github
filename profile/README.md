@@ -51,7 +51,7 @@ This organization hosts the public-facing artifacts of our work. Most ChronoFabr
 
 ## Licensing
 
-Public materials in this organization are released under the Layer1Labs Research & Evaluation License v1.0. Non-commercial research, evaluation, and educational use is permitted. Commercial use, production deployment, or incorporation into commercial products or services requires a separate commercial license.
+All materials in this organization are proprietary to Layer1Labs Silicon, Inc. and governed by the **Layer1Labs Proprietary License v1.0**. All rights reserved. No license to use, copy, modify, distribute, deploy, execute, or create derivative works of any material in this organization is granted by access alone. Any use — including research, evaluation, internal testing, integration, deployment, or commercial exploitation — requires a separately executed written commercial license agreement with Layer1Labs Silicon, Inc. Contact info@layer1labs.ai to begin a commercial licensing conversation.
 
 ---
 

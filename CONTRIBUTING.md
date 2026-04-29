@@ -1,8 +1,8 @@
-# Contributing to CPSC Computing
+# Contributing to Layer1Labs Silicon, Inc.
 
-Thank you for your interest in contributing to the CPSC organization.
+Thank you for your interest in contributing to the Layer1Labs Silicon organization.
 
-All repositories in this organization are **spec-first** and **governance-driven**.
+All repositories in this organization are **proprietary**, **spec-first**, and **governance-driven**. Contributions are accepted only under the Layer1Labs Proprietary License v1.0 and are subject to a Contributor Assignment Agreement.
 
 ---
 
@@ -72,10 +72,12 @@ Agent-assisted contributions are allowed, but:
 
 ## 6. Licensing and IP
 
-By contributing:
-- You agree that contributions are provided under the existing repository license
-- You do not receive commercial rights
-- You acknowledge that patent rights are reserved
+By contributing, you agree that:
+
+- All contributions are submitted under the **Layer1Labs Proprietary License v1.0**.
+- You assign all right, title, and interest in your contribution to Layer1Labs Silicon, Inc., or grant Layer1Labs an exclusive, perpetual, irrevocable, worldwide license sufficient to commercialize the contribution under any terms it chooses.
+- You receive no license, commercial rights, or royalty entitlement in return.
+- All patent rights are reserved by Layer1Labs Silicon, Inc.; no patent license is granted to you under any contribution flow.
 
 Do not submit content you do not have the right to contribute.
 
@@ -86,7 +88,7 @@ Do not submit content you do not have the right to contribute.
 All contributions are reviewed for:
 - Correctness
 - Clarity
-- Alignment with CPSC principles
+- Alignment with Layer1Labs engineering principles
 - Impact on determinism and portability
 
 Maintainers may request revisions or reject contributions.
@@ -95,7 +97,7 @@ Maintainers may request revisions or reject contributions.
 
 ## 8. Summary
 
-CPSC prioritizes:
+Layer1Labs prioritizes:
 - Correctness over speed
 - Clarity over cleverness
 - Specification authority over convenience
@@ -104,4 +106,4 @@ Thank you for contributing responsibly.
 
 ---
 
-**CONTRIBUTING.md** | © 2026 Layer1Labs Silicon, Inc. | Licensed under CPSC Research & Evaluation License v1.0
+**CONTRIBUTING.md** | © 2026 Layer1Labs Silicon, Inc. | Licensed under Layer1Labs Proprietary License v1.0
