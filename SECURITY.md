@@ -81,7 +81,7 @@ We ask reporters to:
 Reporting a security issue does not grant any rights beyond those explicitly
 stated in the repository license.
 
-All intellectual property rights remain with BitConcepts, LLC.
+All intellectual property rights remain with Layer1Labs Silicon, Inc.
 
 ---
 

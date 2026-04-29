@@ -28,7 +28,7 @@ This Code of Conduct applies to all CPSC organization spaces, including:
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to the maintainers at BitConcepts, LLC. All complaints will be reviewed and may result in:
+Instances of unacceptable behavior may be reported to the maintainers at Layer1Labs Silicon, Inc. All complaints will be reviewed and may result in:
 
 - Warning
 - Temporary or permanent ban from the community
@@ -40,4 +40,4 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ---
 
-© 2026 BitConcepts, LLC
+© 2026 Layer1Labs Silicon, Inc.

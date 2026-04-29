@@ -104,4 +104,4 @@ Thank you for contributing responsibly.
 
 ---
 
-**CONTRIBUTING.md** | © 2026 BitConcepts, LLC | Licensed under CPSC Research & Evaluation License v1.0
+**CONTRIBUTING.md** | © 2026 Layer1Labs Silicon, Inc. | Licensed under CPSC Research & Evaluation License v1.0

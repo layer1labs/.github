@@ -1,55 +1,59 @@
-# CPSC Computing
+# Layer1Labs Silicon, Inc.
 
-**Constraint-Projected State Computing — declarative computing through constraint projection.**
+**Deterministic infrastructure for time-critical computing.**
 
-CPSC is a computing model in which computation is performed by projecting system state onto explicit constraints, rather than executing ordered instructions. It provides a foundation for deterministic, constraint-driven systems including reasoning engines, compliance enforcement, control systems, and hardware (FPGA/ASIC).
+ChronoFabric™ pulls precise time-of-action down into silicon, where it belongs.
 
 ---
+
+## The Problem
+
+Modern compute infrastructure is non-deterministic by default. CPUs introduce jitter. Schedulers introduce variance. Networks introduce queuing. Storage introduces tail latency. Software-defined timing — even with PREEMPT_RT, kernel-bypass, or NIC-side gating — only chips away at the problem; the timing is still owned by code running on a CPU that has other priorities.
+
+For workloads where time matters in dollars, correctness, or human safety — high-frequency trading, distributed AI training, scientific instrumentation, real-time control — non-determinism is paid for as adverse selection, straggler tax, missed measurements, or fault-tolerance overhead.
+
+## What We Build
+
+Layer1Labs Silicon designs **ChronoFabric™**, a hardware-anchored timing platform that enforces deterministic egress at nanosecond resolution, independent of CPU load or OS scheduling. ChronoFabric inserts into a standard streaming data path with no protocol changes — software stacks above it stay exactly as they are.
+
+ChronoFabric is delivered as:
+
+- **IP cores** that integrate into FPGA, ASIC, or SoC designs
+- **Reference hardware platforms** for evaluation and pilot deployment
+- **A determinism-first OS layer** (RailOS) for end-to-end timing guarantees from kernel to wire
+- **Tooling and integration libraries** for the most common host environments
+
+## Why It Matters
+
+| Industry | What ChronoFabric Replaces | What Customers Gain |
+|---|---|---|
+| **Financial networks** | Software-timed market access; opaque NIC stacks | Bounded, auditable egress at line rate |
+| **Distributed AI training** | Stragglers, NCCL barrier tax | Tighter step time, higher GPU utilization, faster training |
+| **High-performance computing** | Software barriers, jitter-bound scaling | Predictable cadence at any node count |
+| **Industrial & aerospace control** | TSN/IEEE 1588 with software dependencies | Determinism guaranteed in hardware, certifiable |
+| **Scientific instrumentation** | Cross-channel synchronization complexity | Single timing primitive across all channels |
+
+## Engineering Principles
+
+- **Determinism is a hardware property, not a software policy.**
+- **Composability: drop into existing data paths without protocol churn.**
+- **Auditability: timing behavior is measurable, reproducible, and certifiable.**
+- **No instruction execution in the timing-critical path.**
 
 ## Repositories
 
-- **[cpsc-core](https://github.com/cpsc-computing/cpsc-core)** — CPSC specifications, CAS-YAML format, CGAD governance, and documentation
-- **[cpsc-engine-rtl](https://github.com/cpsc-computing/cpsc-engine-rtl)** — CPSC Reasoning Engine (CPSC-RE) implementation — Layers 0–5
-- **[cpsc-engine-python](https://github.com/cpsc-computing/cpsc-engine-python)** — Python reference engine for CPSC
-- **[cpac](https://github.com/cpsc-computing/cpac)** — Constraint-Projected Adaptive Compression (CPAC) engine (Rust)
-
-### CPAC Benchmark Highlights (v0.3.0)
-
-777 files benchmarked across 8 industry-standard corpora (Canterbury, Silesia, Calgary, enwik8, loghub2_2k, nasa_logs, cloud_configs, kodak). 12 entropy backends, all results verified lossless.
-
-| Corpus | Files | Avg Best Ratio |
-|--------|-------|----------------|
-| loghub2_2k | 14 | **16.63×** |
-| nasa_logs | 4 | **8.56×** |
-| canterbury | 11 | **5.84×** |
-| silesia | 12 | **4.30×** |
-| calgary | 18 | **4.03×** |
-| enwik8 | 1 | **3.75×** |
-
-See [CPAC BENCHMARKING.md](https://github.com/cpsc-computing/cpac/blob/develop/docs/BENCHMARKING.md) for full results.
-
----
-
-## Key Concepts
-
-- **State** — the full configuration of a system
-- **Constraints** — rules defining valid states
-- **Projection** — resolving state into validity
-- **Epoch Cycle** — Sense → Compute → Evaluate → Commit
-- **CAS-YAML** — declarative constraint model format
-- **CGAD** — Constraint-Governed Agentic Development
-
----
-
-## Licensing
-
-CPSC specifications and materials are released under the **CPSC Research & Evaluation License**.
-Non-commercial research, evaluation, and educational use is permitted. Commercial use requires a separate license.
-
----
+This organization hosts the public-facing artifacts of our work. Most ChronoFabric IP and product code lives in private repositories accessible to partners under NDA. For evaluation access, technical pilots, or licensing inquiries, contact us.
 
 ## Contact
 
-For research questions, discussion, or licensing inquiries, contact **BitConcepts, LLC**.
+- **Business / partnerships / evaluation:** info@bitconcepts.tech
+- **Security / responsible disclosure:** support@bitconcepts.tech (see `SECURITY.md`)
 
-© 2026 BitConcepts, LLC
+## Licensing
+
+Public materials in this organization are released under the Layer1Labs Research & Evaluation License v1.0. Non-commercial research, evaluation, and educational use is permitted. Commercial use, production deployment, or incorporation into commercial products or services requires a separate commercial license.
+
+---
+
+© 2026 Layer1Labs Silicon, Inc. All rights reserved.
+ChronoFabric™ is a trademark of Layer1Labs Silicon, Inc.
