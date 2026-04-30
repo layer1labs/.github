@@ -1,4 +1,4 @@
-# Layer1Labs Silicon, Inc.
+# Layer1Labs Silicon Inc.
 
 **Deterministic infrastructure for time-critical computing.**
 
@@ -47,13 +47,12 @@ This organization hosts the public-facing artifacts of our work. Most ChronoFabr
 ## Contact
 
 - **Business / partnerships / evaluation:** info@layer1labs.ai
-- **Security / responsible disclosure:** security@layer1labs.ai (see `SECURITY.md`)
 
 ## Licensing
 
-All materials in this organization are proprietary to Layer1Labs Silicon, Inc. and governed by the **Layer1Labs Proprietary License v1.0**. All rights reserved. No license to use, copy, modify, distribute, deploy, execute, or create derivative works of any material in this organization is granted by access alone. Any use — including research, evaluation, internal testing, integration, deployment, or commercial exploitation — requires a separately executed written commercial license agreement with Layer1Labs Silicon, Inc. Contact info@layer1labs.ai to begin a commercial licensing conversation.
+All materials in this organization are proprietary to Layer1Labs Silicon Inc. and governed by the **Layer1Labs Proprietary License v1.0**. All rights reserved. No license to use, copy, modify, distribute, deploy, execute, or create derivative works of any material in this organization is granted by access alone. Any use — including research, evaluation, internal testing, integration, deployment, or commercial exploitation — requires a separately executed written commercial license agreement with Layer1Labs Silicon Inc. Contact info@layer1labs.ai to begin a commercial licensing conversation.
 
 ---
 
-© 2026 Layer1Labs Silicon, Inc. All rights reserved.
-ChronoFabric™ is a trademark of Layer1Labs Silicon, Inc.
+© 2026 Layer1Labs Silicon Inc. All rights reserved.
+ChronoFabric™ is a trademark of Layer1Labs Silicon Inc.
